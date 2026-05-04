@@ -2,8 +2,6 @@ node_modules/
 bin/
 .DS_Store
 *.log
-.env
-.env.*
 !.env.*.example
 # Bun --compile temp artifacts. Each build emits a new hash-named .bun-build
 # file in cwd; glob catches all of them.
@@ -38,3 +36,4 @@ export/
 # Tier 3 PGLite snapshot fixture (built on demand by build:pglite-snapshot)
 test/fixtures/pglite-snapshot.tar
 test/fixtures/pglite-snapshot.version
+config.bat
